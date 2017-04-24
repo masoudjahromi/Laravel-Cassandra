@@ -2,16 +2,16 @@ Cassandra client library for Laravel. Integrate Cassandra into your Laravel app.
 
 Table of contents
 -----------------
-* [Features](#Features)
-* [Installation](#Installation)
+* [Features](#features)
+* [Installation](#installation)
 * [Basic Usage](#basic-usage)
-* [Fetch Data](#Fetch Data)
-* [Query Asynchronously](#Query Asynchronously)
-* [Using preparation and data binding](#Using preparation and data binding)
-* [Using Batch](#Using Batch)
-* [Supported datatypes](#Supported datatypes)
-* [Using nested datatypes](#Using nested datatypes)
-* [Inspired by](#Inspired by)
+* [Fetch Data](#fetch-data)
+* [Query Asynchronously](#query-asynchronously)
+* [Using preparation and data binding](#using-preparation-and-data-binding)
+* [Using Batch](#using-batch)
+* [Supported datatypes](#supported-datatypes)
+* [Using nested datatypes](#using-nested-datatypes)
+* [Inspired by](#inspired-by)
 
 Features
 --------
