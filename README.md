@@ -1,5 +1,18 @@
 Cassandra client library for Laravel. Integrate Cassandra into your Laravel app. Inspired by [duoshuo/php-cassandra](https://github.com/duoshuo/php-cassandra). Enjoy it!
 
+Table of contents
+-----------------
+* [Features](#Features)
+* [Installation](#Installation)
+* [Basic Usage](#Basic Usage)
+* [Fetch Data](#Fetch Data)
+* [Query Asynchronously](#Query Asynchronously)
+* [Using preparation and data binding](#Using preparation and data binding)
+* [Using Batch](#Using Batch)
+* [Supported datatypes](#Supported datatypes)
+* [Using nested datatypes](#Using nested datatypes)
+* [Inspired by](#Inspired by)
+
 ## Features
 
 * Using Protocol v3 (Cassandra 2.1)
@@ -19,7 +32,15 @@ Cassandra client library for Laravel. Integrate Cassandra into your Laravel app.
 
 PHP 5.4+ is required.
 
-Append dependency into composer.json
+**Installation using composer:**
+
+```
+composer require masoudjahromi/laravel-cassandra "dev-master"
+```
+
+OR
+
+**Append dependency into composer.json**
 
 ```
 	...
@@ -30,7 +51,13 @@ Append dependency into composer.json
 	...
 ```
 
-## Basic Using
+Then run following command:
+
+```
+composer update
+```
+
+## Basic Usage
 
 ```php
 
