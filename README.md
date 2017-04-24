@@ -4,7 +4,7 @@ Table of contents
 -----------------
 * [Features](#Features)
 * [Installation](#Installation)
-* [Basic Usage](#Basic Usage)
+* [Basic Usage](#basic-usage)
 * [Fetch Data](#Fetch Data)
 * [Query Asynchronously](#Query Asynchronously)
 * [Using preparation and data binding](#Using preparation and data binding)
@@ -13,7 +13,8 @@ Table of contents
 * [Using nested datatypes](#Using nested datatypes)
 * [Inspired by](#Inspired by)
 
-## Features
+Features
+--------
 
 * Using Protocol v3 (Cassandra 2.1)
 * Support ssl/tls with stream transport layer
@@ -28,7 +29,8 @@ Table of contents
 * Using exceptions to report errors
 * 800% performance improvement(async mode) than other php cassandra client libraries
 
-## Installation
+Installation
+------------
 
 PHP 5.4+ is required.
 
