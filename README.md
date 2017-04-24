@@ -59,6 +59,12 @@ Then run following command:
 composer update
 ```
 
+Add Cassandra service provider in `config/app.php`:
+
+```php
+Masoudjahromi\LaravelCassandra\CassandraServiceProvider::class,
+```
+
 ## Basic Usage
 
 ```php
