@@ -1,4 +1,4 @@
-Cassandra client library for Laravel. Integrate Cassandra into your Laravel app. Inspired by [duoshuo/php-cassandra](https://github.com/duoshuo/php-cassandra).Enjoy it!
+Cassandra client library for Laravel. Integrate Cassandra into your Laravel app. Inspired by [duoshuo/php-cassandra](https://github.com/duoshuo/php-cassandra). Enjoy it!
 
 ## Features
 

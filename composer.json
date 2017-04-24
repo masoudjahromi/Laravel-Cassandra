@@ -1,0 +1,25 @@
+{
+  "name": "masoudjahromi/laravel-cassandra",
+  "description": "The Cassandra wrapper for Laravel.",
+  "keywords": [
+    "cassandra",
+    "laravel",
+    "driver"
+  ],
+  "authors": [
+    {
+      "name": "Masoud Jahromi",
+      "email": "mjahromi9@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Masoudjahromi\\LaravelCassandra\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "^5.0"
+  }
+}
