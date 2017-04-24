@@ -1,6 +1,6 @@
 {
   "name": "masoudjahromi/laravel-cassandra",
-  "description": "The Cassandra wrapper for Laravel.",
+  "description": "Cassandra client library for Laravel. Integrate Cassandra into your Laravel app.",
   "keywords": [
     "cassandra",
     "laravel",
