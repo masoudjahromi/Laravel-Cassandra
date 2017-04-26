@@ -1,7 +1,6 @@
 <?php
 namespace Masoudjahromi\LaravelCassandra\Request;
 use Masoudjahromi\LaravelCassandra\Protocol\Frame;
-use Cassandra\Request\Request;
 
 class AuthResponse extends Request{
 	

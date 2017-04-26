@@ -1,6 +1,6 @@
 <?php
 namespace Masoudjahromi\LaravelCassandra\Request;
-use Masoudjahromi\LaravelCassandra\Request;
+use Exception;
 use Masoudjahromi\LaravelCassandra\Protocol\Frame;
 use Masoudjahromi\LaravelCassandra\Protocol;
 use Masoudjahromi\LaravelCassandra\Connection;
@@ -113,7 +113,7 @@ class Batch extends Request{
             /**
              * @link https://github.com/duoshuo/php-cassandra/issues/40
              */
-            throw new \Cassandra\Exception('NAMES_FOR_VALUES in batch request seems never work in Cassandra 2.1.x.  Keep NAMES_FOR_VALUES flag false to avoid this bug.');
+            throw new Exception('NAMES_FOR_VALUES in batch request seems never work in Cassandra 2.1.x.  Keep NAMES_FOR_VALUES flag false to avoid this bug.');
             
             $flags |= Query::FLAG_WITH_NAMES_FOR_VALUES;
         }

@@ -1,5 +1,5 @@
 <?php
-namespace Cassandra\Connection;
+namespace Masoudjahromi\LaravelCassandra\Connection;
 
 use Masoudjahromi\LaravelCassandra\Exception;
 

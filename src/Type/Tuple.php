@@ -1,6 +1,8 @@
 <?php
 namespace Masoudjahromi\LaravelCassandra\Type;
 
+use Masoudjahromi\LaravelCassandra\Response\StreamReader;
+
 class Tuple extends Base{
 
     /**
@@ -45,6 +47,6 @@ class Tuple extends Base{
      * @return array
      */
     public static function parse($binary, array $definition){
-        return (new \Cassandra\Response\StreamReader($binary))->readTuple($definition);
+        return (new StreamReader($binary))->readTuple($definition);
     }
 }

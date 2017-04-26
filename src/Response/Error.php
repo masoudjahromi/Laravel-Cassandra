@@ -1,6 +1,5 @@
 <?php
 namespace Masoudjahromi\LaravelCassandra\Response;
-use Cassandra\Response\Response;
 use Masoudjahromi\LaravelCassandra\Protocol\Frame;
 
 class Error extends Response {

@@ -1,8 +1,6 @@
 <?php
 namespace Masoudjahromi\LaravelCassandra\Response;
 
-use Cassandra\Response\Response;
-
 class AuthSuccess extends Response {
 	public function getData(){
 		/**

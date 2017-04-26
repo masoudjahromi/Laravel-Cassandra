@@ -1,6 +1,5 @@
 <?php
 namespace Masoudjahromi\LaravelCassandra\Request;
-use Cassandra\Request\Request;
 use Masoudjahromi\LaravelCassandra\Protocol\Frame;
 
 class Prepare extends Request{

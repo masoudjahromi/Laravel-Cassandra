@@ -1,8 +1,6 @@
 <?php
 namespace Masoudjahromi\LaravelCassandra\Response;
 
-use Cassandra\Response\StreamReader;
-
 class ProgressiveStreamReader extends StreamReader{
     
     /**

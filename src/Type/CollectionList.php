@@ -1,6 +1,8 @@
 <?php
 namespace Masoudjahromi\LaravelCassandra\Type;
 
+use Masoudjahromi\LaravelCassandra\Response\StreamReader;
+
 class CollectionList extends Base{
     
     /**
@@ -32,6 +34,6 @@ class CollectionList extends Base{
     }
     
     public static function parse($binary, array $definition){
-        return (new \Cassandra\Response\StreamReader($binary))->readList($definition);
+        return (new StreamReader($binary))->readList($definition);
     }
 }
